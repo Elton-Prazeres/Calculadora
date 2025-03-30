@@ -9,7 +9,7 @@
 <body>
     <div class="box">
         <h1>Calculadora</h1>
-        <div class="tela">1234</div>
+        <div class="tela"></div>
         <table>
             <tr>
                 <td><button onclick="clean()">C</button></td>
@@ -33,7 +33,7 @@
                 <td><button onclick="inserir('1')">1</button></td>
                 <td><button onclick="inserir('2')">2</button></td>
                 <td><button onclick="inserir('3')">3</button></td>
-                <td rowspan="2"><button class="row-size">=</button></td>
+                <td rowspan="2"><button class="row-size" onclick="somar()">=</button></td>
             </tr>
             <tr>
                 <td colspan="2"><button class="col-size"  onclick="inserir('0')">0</button></td>
@@ -42,6 +42,6 @@
         </table>
         <span>&copy;EhpDEV</span>
     </div>
-</body>
 <script src="js/index.js"></script> 
+</body>
 </html>
