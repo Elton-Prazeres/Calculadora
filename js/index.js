@@ -13,3 +13,12 @@ function back() {
         tela.length - 1
     );
 }
+
+function somar () {
+    let tela = document.querySelector('.tela').innerHTML;
+    if(tela) {
+        document.querySelector('.tela').innerHTML = eval(tela);
+    } else {
+        document.querySelector('.tela').innerHTML = "nenhum comando..."
+    }
+}
